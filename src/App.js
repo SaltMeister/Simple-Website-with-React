@@ -1,7 +1,10 @@
 import logo from './logo.svg';
-import './App.css';
+import './CSS/App.css';
+import Header from './Components/Header.js';
 
 function App() {
+  const element = <h1>Hello World</h1>;
+  const title = "Helo";
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +20,8 @@ function App() {
         >
           Learn React
         </a>
+
+        <Header homeTitle = "Hello" productTitle = "Goods" downloadTitle = "Installs" contactTitle = "Communication"/>
       </header>
     </div>
   );
